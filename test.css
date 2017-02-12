@@ -4,12 +4,12 @@
 body:after {
     content: "Current Version: v" var(--version-content);
     z-index: 10000000000000000000000000;
-    color: #fff;
+    color: #3A234D;
     background: var(--main-color);
     top: 0;
     left: 50%;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 5px 15px;
     -webkit-transform: translate(-50%, -100%);
     transform: translate(-50%, -100%);
@@ -22,7 +22,7 @@ body:after {
 body:before {
     content: "Thanks for using Discord Reborn!";
     z-index: 1000000000000000000000000;
-    color: #fff;
+    color: #3A234D;
     background: var(--main-color);
     top: 0px;
     left: 50%;
